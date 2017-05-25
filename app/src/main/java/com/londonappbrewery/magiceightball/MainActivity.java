@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
                 Log.d("Magic8Ball", "Button is pressed");
                 Random rn = new Random(); //new random object
                 int number = rn.nextInt(5); //stored in a new variable called number
-                //ballDisplay.setImageResource(ballArray[number]);
                 ballDisplay.setImageResource(ballArray[number]);
             }
         });
