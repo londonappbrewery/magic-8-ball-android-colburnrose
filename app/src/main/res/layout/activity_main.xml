@@ -10,4 +10,8 @@
     android:paddingTop="16dp"
     android:paddingBottom="16dp"
     tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        style="@style/ask_button"/>
 </RelativeLayout>
